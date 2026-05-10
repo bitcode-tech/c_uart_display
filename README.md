@@ -24,6 +24,12 @@ This library is designed for BC759x series LED display driver + keyboard interfa
 
 Typical supported devices include BC759x family chips such as [BC7591](docs/bc7591_en.pdf) and [BC7595](docs/bc7595.pdf). For the exact command set and hardware limits of a specific chip, refer to that chip's datasheet.
 
+![](img/Screenshot%202026-05-10%20110914.png)
+
+![](img/Screenshot%202026-05-10%20110821.png)
+
+A utility software is available too to help developers getting things done more quickly. It's available in the release downloads.
+
 The built-in key matrix interface of BC759x shares the same UART and has its own library: [UART Single-Wire Keyboard Driver Library](https://github.com/bitcode-tech/c_uart_keyboard) , the 2 libraries can be used side by side.
 
 ## File Structure
